@@ -1,0 +1,592 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+
+}
+
+.header{
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    background-color: transparent;
+    background-image: url(assets/images/working-at-night.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: 100% 100%;
+    opacity: 0.9;
+}
+.navbar {
+    background-color: rgb(51, 51, 51); 
+    color: #fff; 
+    width: 100%;
+    padding: 15px 30px;
+    position: fixed; 
+    top: 0;
+    z-index: 1000; 
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); 
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .nav-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px; 
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    padding: 8px 15px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: black; 
+    background-color: white; 
+    border-radius: 5px;
+  }
+  
+  
+  .nav-toggle {
+    display: none; 
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+  }
+  
+.content{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    width: 40%;
+    margin: auto;
+    margin-top:50px;
+    padding-top: 2rem;
+}
+.content h2{
+    padding: 25px;
+    margin-top: 25px;
+    font-weight: 200px;
+    font-size: 2.5rem;
+    opacity: 0.8;
+    width: 100%;
+}
+
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 170px; 
+    }
+  }
+  
+  @keyframes blink-caret {
+    from, to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: black;
+    }
+  }
+.content hr{
+    height: 0.25rem;
+    max-width: 3.5rem;
+    margin: auto;
+    background-color:darkgray;
+    width: 100%;
+}
+.content p{
+    padding: 25px;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 18px;
+    width: 100%;
+    
+}
+.btn1{
+    border-radius: 25px;
+    border: none;
+    padding: 20px;
+    background-color:rgb(32, 32, 32) ;
+    color: white;
+    text-decoration:none ;
+}
+.btn1:hover{
+    -webkit-transition:1s  ;
+    -o-transition:1s  ;
+    transition:1s  ;
+    background-color: rgb(104, 103, 103);
+}
+.about{
+    background-color: rgb(104, 103, 103);
+    margin: auto;
+    padding: 50px;
+    width: 100%;
+}
+.aboutcontent{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 40px;
+    width: 50%;
+    margin: auto;
+    
+}
+
+.aboutcontent h2{
+    padding: 25px;
+    font-weight: 200px;
+    font-size: 2.5rem;
+    opacity: 0.8;
+    width: 100%;
+}
+.aboutcontent hr{
+    height: 0.25rem;
+    max-width: 3.5rem;
+    margin: auto;
+    background-color:rgb(255, 255, 255);
+    width: 100%;
+}
+.aboutcontent p{
+    padding: 25px;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 18px;
+    width: 100%;
+    
+}
+.btn2{
+    border-radius: 25px;
+    border: none;
+    padding: 20px;
+    background-color:rgb(255, 255, 255) ;
+    color: rgb(0, 0, 0);
+    text-decoration:none ;
+
+}
+.btn2:hover{
+    -webkit-transition:1s  ;
+    -o-transition:1s  ;
+    transition:1s  ;
+    background-color: rgb(27, 27, 27);
+    color: white;
+}
+.services{
+    color: rgb(0, 0, 0);
+    padding: 30px;
+}
+
+.sercont{
+    padding: 30px;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.sercont h2{
+    padding: 25px;
+    font-weight: 200px;
+    font-size: 2.5rem;
+    opacity: 0.8;
+}
+.sercont hr{
+    height: 0.25rem;
+    max-width: 3.5rem;
+    margin: auto;
+    background-color:rgb(0, 0, 0);
+    margin-bottom: 25px;
+}
+ 
+.ser{
+    margin: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 10px;
+    width: 100%;
+}
+.ser1{  
+    width:25%;
+    padding:30px;
+    margin: 10px;
+}
+.ser1:hover{
+    transition: 0.5s ;
+    transform:  scale(1.2);
+    background-color: rgb(245, 245, 245);
+}
+.ser1 i{
+    font-size: 30px;
+    padding-bottom: 25px;
+}
+.ser1 p{
+    width: 100%;
+}
+.ser2{
+  
+    padding:30px;
+    width:25%;
+    margin: 10px;
+}
+.ser2 i{
+    font-size: 30px;
+    padding-bottom: 25px;
+}
+.ser2 p{
+    width: 100%;
+}
+.ser2:hover{
+    transition: 0.5s;
+    transform:  scale(1.2);
+    background-color: rgb(245, 245, 245);
+}
+.ser3{  
+    padding:30px;
+    margin: 10px;
+    width:25%;
+}
+.ser3 i{
+    font-size: 30px;
+    padding-bottom: 25px;
+}
+.ser3 p{
+    width: 100%;
+}
+.ser3:hover{
+    transition: 0.5s;
+    transform:  scale(1.2);
+    background-color: rgb(245, 245, 245);
+}
+.ser4{
+    padding:30px;
+    margin: 10px;
+    width:25%
+}
+.ser4 i{
+    font-size: 30px;
+    padding-bottom: 25px;
+}
+.ser4 p{
+    width: 100%;
+}
+.ser4:hover{
+    transition: 0.5s ;
+    transform:  scale(1.2);
+    background-color: rgb(245, 245, 245);
+}
+.port{
+    width: 100%;
+    display: flex;
+    background-color: black;
+}
+
+.port1 img{
+    width: 100%;
+    
+}
+.port1:hover{
+    opacity: 0.25;
+    transition: 1s ease;
+}
+.port2 img{
+    width: 100%;
+}
+.port2:hover{
+    opacity: 0.25;
+    transition: 1s ease;
+}
+.port3 img{
+    width: 100%;
+}
+.port3:hover{
+    opacity: 0.25;
+    transition: 1s ease;
+}
+.download{
+    padding: 50px;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: rgb(48, 48, 48);
+    color: white;
+}
+.download h2{
+    padding: 50px;
+    font-weight: 200px;
+    font-size: 1.5rem;
+    opacity: 0.8;
+}
+.btn3{
+    border-radius: 25px;
+    border: none;
+    padding: 20px;
+    background-color:rgb(255, 255, 255) ;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.btn3:hover{
+    -webkit-transition:1s  ;
+    -o-transition:1s  ;
+    transition:1s  ;
+    background-color: rgb(151, 151, 151);
+    color: white;
+}
+
+.form{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 40px;
+    width: 50%;
+    margin: auto;
+    
+}
+
+.form h2{
+    padding: 25px;
+    font-weight: 200px;
+    font-size: 2.5rem;
+    opacity: 0.8;
+    width: 100%;
+}
+.form hr{
+    height: 0.25rem;
+    max-width: 3.5rem;
+    margin: auto;
+    background-color:rgb(0, 0, 0);
+    width: 100%;
+}
+.form p{
+    padding: 25px;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 18px;
+    width: 100%;
+}
+.btn4{
+    border-radius: 25px;
+    border: none;
+    padding: 20px;
+    background-color:rgb(0, 0, 0) ;
+    color: rgb(255, 255, 255);
+    width: 500px;
+}
+.btn4:hover{
+    -webkit-transition:0.2;
+    -o-transition:0.2;
+    transition:0.2;
+    background-color: rgb(56, 56, 56);
+    color: white;
+}
+.info{
+    padding: 15px;
+    margin: auto;
+    width:60%;
+}
+.info input{
+    width: 100%;
+    padding: 20px;
+    font-weight: 400px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-top:20px;
+}
+.info textarea{
+    height: 10rem;
+    padding: 20px;
+    margin-top: 20px;
+    width: 100%;
+}
+.info input:hover{
+    -webkit-transition: 0.2s ease-in-out width;
+    -o-transition: 0.2s ease-in-out width;
+    transition: 0.2s ease-in-out width;
+    width: 105%;
+}
+.footer{
+    background-color: rgb(192, 192, 192);
+    padding: 20px;
+    text-align: center;
+    opacity: 0.7;
+}
+
+@media (max-width: 1200px) {
+    .header.content, .aboutcontent, .form {
+      width: 60%; 
+    }
+    .ser {
+      flex-wrap: wrap;
+    }
+    .ser1, .ser2, .ser3, .ser4 {
+      width: 45%; 
+      margin-bottom: 1rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .navbar {
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .start, .nav-links a {
+      font-size: 18px; 
+      padding: 25px;
+      justify-content: center;
+      align-items: center;
+    }
+    .content, .aboutcontent, .form {
+      width: 80%; 
+    }
+    
+    .ser {
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+    .ser1, .ser2, .ser3, .ser4 {
+      width: 100%; 
+    }
+    .btn1, .btn2, .btn3, .btn4 {
+      padding: 15px;
+      width: auto;
+    }
+    .info {
+      width: 80%; 
+    }
+  }
+  .nav-links {
+    display: flex;  
+    right: 0;
+    text-align: center;
+ 
+     
+  }
+
+  @media (max-width: 480px) {
+    .navbar {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      background-color: rgb(51, 51, 51);
+      width: 100%;
+      text-align: center;
+    }
+  
+    .nav-links.active {
+      display: flex;
+    }
+  
+    .nav-toggle {
+      display: block;
+    }
+  
+    .header .content {
+      width: 90%;
+      text-align: center;
+    }
+  
+    .header .content h2 {
+      font-size: 1.8rem;
+    }
+  
+    .header .content p {
+      font-size: 14px;
+    }
+  
+    .btn1 {
+      font-size: 14px;
+      padding: 10px 15px;
+    }
+  
+    .ser {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .ser1, .ser2, .ser3, .ser4 {
+      width: 90%;
+      margin-bottom: 20px;
+    }
+  
+    .port {
+      flex-direction: column;
+    }
+  
+    .port1, .port2, .port3 {
+      width: 100%;
+    }
+  
+    .port1 img, .port2 img, .port3 img {
+      width: 100%;
+    }
+  
+    .aboutcontent, .download, .form {
+      width: 100%;
+      padding: 20px;
+    }
+  
+    .aboutcontent h2, .download h2, .form h2 {
+      font-size: 1.8rem;
+    }
+  
+    .aboutcontent p, .download p, .form p {
+      font-size: 14px;
+    }
+  
+    .btn2, .btn3, .btn4 {
+      font-size: 14px;
+      padding: 10px 15px;
+    }
+  
+    .footer {
+      padding: 10px;
+      text-align: center;
+      font-size: 12px;
+    }
+  }
+  
+    @media (min-width: 768px) {
+    .port {
+        flex-wrap: wrap; 
+    }
+    .port1, .port2, .port3 {
+        width: 33.33%; 
+    }
+    .port1 img, .port2 img, .port3 img {
+        width: 100%; 
+}
+    }
